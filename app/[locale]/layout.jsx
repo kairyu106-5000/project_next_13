@@ -2,6 +2,7 @@ import "@styles/globals.css";
 
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
+import { dir } from "i18next";
 
 export const metadata = {
   title: "Promptopia",

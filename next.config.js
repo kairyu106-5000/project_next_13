@@ -13,6 +13,11 @@ const nextConfig = {
       topLevelAwait: true,
     }
     return config
+  },
+  i18n: {
+    locales: ['en', 'fr', 'ja'],
+    defaultLocale: 'en',
+    localeDetection: true
   }
 }
 
